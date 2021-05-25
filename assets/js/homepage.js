@@ -76,9 +76,6 @@ repoEl.appendChild(statusEl);
   // append container to the dom
   repoContainerEl.appendChild(repoEl);
 }
-  // clear old content
-repoContainerEl.textContent = "";
-repoSearchTerm.textContent = searchTerm;
 };
 
 userFormEl.addEventListener("submit", formSubmitHandler);
